@@ -33,12 +33,14 @@ public class User {
     public User(String username, String userEmail) {
         this.username = username;
         this.userEmail = userEmail;
+        this.email = userEmail;
     }
     
     public User(Long id, String username, String userEmail) {
         this.id = id;
         this.username = username;
         this.userEmail = userEmail;
+        this.email = userEmail;
     }
 
     @Id
